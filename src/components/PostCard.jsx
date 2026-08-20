@@ -5,7 +5,7 @@ export default function PostCard({ post }) {
   });
 
   return (
-    <article className="post-card">
+    <article className="post-card" tabIndex={0}>
       <img className="post-image" src={post.image} alt="" />
       <div className="post-card-content">
         <time className="post-time" dateTime={post.created_at}>

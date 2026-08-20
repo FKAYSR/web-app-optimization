@@ -15,10 +15,10 @@
 
 ```text
 src/
-  App.jsx               # Routes
-  main.jsx              # BrowserRouter + basename
-  styles.css            # Global styling
-  assets/               # Lokale assets (fx example.svg)
+  App.jsx              
+  main.jsx            
+  styles.css          
+  assets/             
   components/
     Navbar.jsx
     PostCard.jsx
@@ -29,9 +29,8 @@ src/
     ContactPage.jsx
     NotFoundPage.jsx
 public/
-  logo.webp             # Public asset
-.env.example            # Skabelon til lokale Supabase variabler
+  logo.webp           
 .github/
   workflows/
-    deploy.yml          # Build + deploy til GitHub Pages
+    deploy.yml          
 ```
