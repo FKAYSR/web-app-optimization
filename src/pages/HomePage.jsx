@@ -1,3 +1,7 @@
+import Teacher from "../sandbox/Teacher";
+import Welcome from "../sandbox/Welcome";
+import Greeting from "../sandbox/Greeting";
+
 export default function HomePage() {
   return (
     <>
@@ -5,7 +9,12 @@ export default function HomePage() {
         <h1>Home</h1>
       </header>
       <main>
+        <Teacher />
         <p>Welcome to the home page...</p>
+        <Welcome />
+        <Greeting name="Kejser" />
+        <Greeting name="Kejser" />
+        <Greeting name="Kejser" />
       </main>
     </>
   );

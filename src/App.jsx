@@ -5,6 +5,10 @@ import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import PostsPage from "./pages/PostsPage";
 import NotFoundPage from "./pages/NotFoundPage";
+import "./sandbox/sandbox";
+import {teachers} from "./sandbox/teachers";
+
+console.log(teachers);
 
 export default function App() {
   return (
