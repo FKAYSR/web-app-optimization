@@ -70,3 +70,14 @@ console.log(courses.length)
 
 const [firstCourse, secondCourse] = courses;
 console.log(firstCourse, secondCourse);
+
+// map()
+const products = [
+  { id: 1, name: "Keyboard", price: 799 },
+  { id: 2, name: "Mouse", price: 399 },
+  { id: 3, name: "Monitor", price: 1999 },
+];
+
+const mapproducts = products.map((product) => product.name)
+
+console.log(mapproducts);
