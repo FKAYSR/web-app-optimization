@@ -3,6 +3,17 @@ import Welcome from "../sandbox/Welcome";
 import Greeting from "../sandbox/Greeting";
 import Button from "../sandbox/Button";
 import Course from "../sandbox/Course";
+import StudentCard from "../sandbox/StudentCard";
+
+const name = "Anna";
+const education = "Multimedia Design";
+const mail = "anna@example.com";
+
+const student = {
+  name,
+  education,
+  mail
+};
 
 export default function HomePage() {
   return (
@@ -19,6 +30,7 @@ export default function HomePage() {
         <Greeting name="Kejser" />
         <Button />
         <Course />
+        <StudentCard student={student} />
       </main>
     </>
   );
