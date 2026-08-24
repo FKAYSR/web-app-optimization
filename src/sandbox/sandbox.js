@@ -33,6 +33,12 @@ const course = {
 
 console.log(course);
 
+// Destructuring object
+const {title, teacher} = course;
+
+console.log(title, teacher)
+
+
 // Property access
 console.log(course.title);
 console.log(course.teacher);
