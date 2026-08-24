@@ -9,8 +9,18 @@ function showWelcomeMessage() {
 
 console.log(showWelcomeMessage());
 
-function sayHi(name) {
-    return `Hello ${name}`;
-}
+// -- Function Declaration:
+// function sayHi(name) {
+//     return `Hello ${name}`;
+// }
+// console.log(sayHi("RACE"));
 
-console.log(sayHi("RACE"));
+// -- Arrow function eksplicit:
+// const sayHii = (name) => {
+//     return `Hii ${name}`
+// };
+
+// -- Arrow function eksplicit:
+const sayHii = (name) => `Hii ${name}`;
+console.log(sayHii("Kejser"));
+
