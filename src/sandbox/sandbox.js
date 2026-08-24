@@ -76,8 +76,13 @@ const products = [
   { id: 1, name: "Keyboard", price: 799 },
   { id: 2, name: "Mouse", price: 399 },
   { id: 3, name: "Monitor", price: 1999 },
+  { id: 4, name: "Headphones", price: 599 },
 ];
 
 const mapproducts = products.map((product) => product.name)
 
 console.log(mapproducts);
+
+// filter()
+const filterProducts = products.filter((product) => product.price < 800);
+console.log(filterProducts);
