@@ -5,6 +5,7 @@ import Button from "../sandbox/Button";
 import Course from "../sandbox/Course";
 import StudentCard from "../sandbox/StudentCard";
 import CourseCard from "../sandbox/CourseCard";
+import NameChanger from "../sandbox/NameChanger";
 
 const name = "Anna";
 const education = "Multimedia Design";
@@ -33,6 +34,7 @@ export default function HomePage() {
         <Course />
         <StudentCard student={student} />
         <CourseCard title="Figma" teacher="MNOR" duration="30min" />
+        <NameChanger />
       </main>
     </>
   );

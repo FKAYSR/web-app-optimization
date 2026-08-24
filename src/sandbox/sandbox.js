@@ -58,3 +58,15 @@ const student = {
 };
 
 console.log(student)
+
+// Arrays
+const courses = [ "JavaScript", "React", "WordPress", "UX" ];
+
+console.log(courses);
+console.log(courses[0])
+console.log(courses[2])
+console.log(courses.length)
+// Fortsættelse ved slide 80
+
+const [firstCourse, secondCourse] = courses;
+console.log(firstCourse, secondCourse);
