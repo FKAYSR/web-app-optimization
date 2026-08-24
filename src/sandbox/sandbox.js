@@ -86,3 +86,8 @@ console.log(mapproducts);
 // filter()
 const filterProducts = products.filter((product) => product.price < 800);
 console.log(filterProducts);
+
+// find()
+const findProduct = products.find((product) => product.id === 2)
+console.log(findProduct);
+console.log(findProduct.name);

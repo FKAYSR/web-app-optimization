@@ -8,6 +8,7 @@ import CourseCard from "../sandbox/CourseCard";
 import NameChanger from "../sandbox/NameChanger";
 import ProductList from "../sandbox/ProductList";
 import FilteredProducts from "../sandbox/FilteredProducts";
+import ProductDetails from "../sandbox/ProductDetails";
 
 const name = "Anna";
 const education = "Multimedia Design";
@@ -39,6 +40,7 @@ export default function HomePage() {
         <NameChanger />
         <ProductList />
         <FilteredProducts />
+        <ProductDetails />
       </main>
     </>
   );
