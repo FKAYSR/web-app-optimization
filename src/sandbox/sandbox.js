@@ -24,3 +24,11 @@ console.log(showWelcomeMessage());
 const sayHii = (name) => `Hii ${name}`;
 console.log(sayHii("Kejser"));
 
+const course = {
+    title: "React",
+    teacher: "RACE",
+    duration: "1h 30min",
+    isActive: true
+}
+
+console.log(course)
